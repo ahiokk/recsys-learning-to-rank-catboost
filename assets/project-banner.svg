@@ -1,0 +1,91 @@
+<svg width="1200" height="450" viewBox="0 0 1200 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="450" rx="20" fill="#F3F0EA"/>
+  <rect x="40" y="40" width="1120" height="390" rx="20" fill="#FFFFFF" stroke="#D9D4CC" stroke-width="2"/>
+
+  <text x="76" y="90" fill="#6A716D" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+    ML-проект
+  </text>
+
+  <text x="76" y="138" fill="#202522" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">
+    Learning-to-Rank с CatBoost
+  </text>
+  <text x="76" y="176" fill="#202522" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">
+    для рекомендательной
+  </text>
+  <text x="76" y="214" fill="#202522" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">
+    системы
+  </text>
+
+  <text x="76" y="256" fill="#4F5A55" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">
+    Проект по ранжированию рекомендаций
+  </text>
+  <text x="76" y="282" fill="#4F5A55" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">
+    на данных MovieLens: подготовка признаков,
+  </text>
+  <text x="76" y="308" fill="#4F5A55" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400">
+    обучение моделей и сравнение качества.
+  </text>
+
+  <text x="76" y="348" fill="#202522" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">
+    Автор
+  </text>
+  <text x="76" y="374" fill="#4F5A55" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400">
+    Telegram: @ah1ok
+  </text>
+  <text x="76" y="396" fill="#4F5A55" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400">
+    Email: irakli1408@yandex.ru
+  </text>
+  <text x="76" y="418" fill="#4F5A55" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="400">
+    Чикобава Иракли
+  </text>
+
+  <line x1="615" y1="76" x2="615" y2="410" stroke="#E3DED6" stroke-width="2"/>
+
+  <text x="645" y="98" fill="#202522" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+    Pipeline
+  </text>
+
+  <rect x="645" y="110" width="465" height="68" rx="12" fill="#FFFFFF" stroke="#D9D4CC" stroke-width="2"/>
+  <text x="663" y="134" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+    1. Подготовка данных
+  </text>
+  <text x="663" y="156" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400">
+    Оценки выше 4.0 считаются релевантными,
+  </text>
+  <text x="663" y="174" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400">
+    затем данные делятся на обучение и тест по времени.
+  </text>
+
+  <rect x="645" y="188" width="465" height="68" rx="12" fill="#FFFFFF" stroke="#D9D4CC" stroke-width="2"/>
+  <text x="663" y="212" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+    2. Генерация кандидатов
+  </text>
+  <text x="663" y="234" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400">
+    Для каждого пользователя собираются подходящие
+  </text>
+  <text x="663" y="252" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400">
+    и случайные фильмы для последующего ранжирования.
+  </text>
+
+  <rect x="645" y="266" width="465" height="68" rx="12" fill="#FFFFFF" stroke="#D9D4CC" stroke-width="2"/>
+  <text x="663" y="290" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+    3. Обучение моделей
+  </text>
+  <text x="663" y="312" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400">
+    Сравниваются baseline, градиентный бустинг
+  </text>
+  <text x="663" y="330" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400">
+    и модели CatBoost для ранжирования.
+  </text>
+
+  <rect x="645" y="344" width="465" height="68" rx="12" fill="#FFFFFF" stroke="#D9D4CC" stroke-width="2"/>
+  <text x="663" y="368" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+    4. Оценка качества
+  </text>
+  <text x="663" y="390" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400">
+    Качество оценивается по NDCG@K, Recall@K,
+  </text>
+  <text x="663" y="408" fill="#2E3531" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400">
+    MRR@K и Precision@K.
+  </text>
+</svg>

@@ -419,3 +419,9 @@ FodyWeavers.xsd
 
 #не грузим большие датасеты в гитхаб
 data/
+
+# Jupyter / ML artifacts
+.ipynb_checkpoints/
+catboost_info/
+.venv/
+venv/
